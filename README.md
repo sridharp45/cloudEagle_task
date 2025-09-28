@@ -1,4 +1,4 @@
-<img width="1434" height="827" alt="Screenshot 2025-09-28 at 8 00 48 PM" src="https://github.com/user-attachments/assets/b53e3a28-dfe0-4dbc-9a09-b3b9c01074f3" /># cloudEagle_task
+# cloudEagle_task
 
 I have tested the following API:
 
