@@ -1,5 +1,7 @@
 # cloudEagle_task
 
+The project implements the OAuth2 authorization flow to securely access Dropbox team data. When a user clicks the “Connect to Dropbox” button, they are redirected to Dropbox’s authorization page to grant access to the application. After the user approves, Dropbox redirects back to the application with an authorization code. The backend then exchanges this code for an access token, which is used to make authenticated requests to the https://api.dropboxapi.com/2/team/get_info endpoint. This flow ensures secure handling of credentials, proper token management, and enables the application to fetch and display team information on the UI.
+
 I have tested the following API:
 
 API: https://api.dropboxapi.com/2/team/get_info (used to get information about the team)
